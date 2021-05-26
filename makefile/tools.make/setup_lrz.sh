@@ -3,6 +3,7 @@ module purge
 #module load admin/1.0 lrz/default intel/17.0 mkl/2017
 #module load gsl/2.3 blast gcc/4.9
 
+module load admin           #obligatroy
 module load lrz tempdir     #obligatory
 module load spack           #requirement for many libs
         
