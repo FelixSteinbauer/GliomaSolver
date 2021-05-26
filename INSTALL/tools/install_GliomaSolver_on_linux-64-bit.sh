@@ -37,6 +37,7 @@ then
     then
 
         module purge
+        module load admin           #obligatroy
         module load lrz tempdir     #obligatory
         module load spack           #requirement for many libs
         
